@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QuickbookIntegration1
+build_property.RootNamespace = QuickbookIntegration1
+build_property.ProjectDir = C:\Users\Dell\Downloads\QuickBooksIntegration-master (1)\QuickBooksIntegration-master\QuickbookIntegration1\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Dell\Downloads\QuickBooksIntegration-master (1)\QuickBooksIntegration-master\QuickbookIntegration1
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/App/Addaccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwXEFkZGFjY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/App/GenBill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwXEdlbkJpbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/App/QBvendor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwXFFCdmVuZG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/AddAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/AddBill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRCaWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/AddCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRDdXN0b21lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/AddInvoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRJbnZvaWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/AddItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/AddPurchaseOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRQdXJjaGFzZU9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/AddVendor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRWZW5kb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/dashboardpage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxkYXNoYm9hcmRwYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/Homepage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lcGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/viewaccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx2aWV3YWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/ViewBill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3QmlsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/ViewCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3Q3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/ViewInvoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3SW52b2ljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/ViewItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3SXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/ViewPurchaseOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3UHVyY2hhc2VPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Home/ViewVendor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3VmVuZG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Shared/_DashboardLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXNoYm9hcmRMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-lozrqpq8fz
+
+[C:/Users/Dell/Downloads/QuickBooksIntegration-master (1)/QuickBooksIntegration-master/QuickbookIntegration1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7iinnif00z

@@ -1,0 +1,86 @@
+﻿@model IEnumerable<QuickbookIntegration1.Models._Bill>
+@{
+    ViewData["Title"] = "ViewBill";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h1>BILLS</h1>
+
+<div class="btn-add">
+</div>
+
+<div style="display:flex; justify-content:space-between;">
+    <a asp-action="Initiateoauth2" asp-controller="App" class="btn new-btn"><i class="fa-solid fa-user-shield" style="margin-right:1rem"></i>QuickBook Authentication</a>
+    <a asp-action="AddVendor" asp-controller="Home" class="btn new-btn"><i class="fa-sharp fa-solid fa-plus" style="margin-right:1rem"></i>Create New</a>
+</div>
+
+<table class="table table-striped" style="margin-top:2rem; border:2px solid #000000; border-color:#000000 ">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VendorRef)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.apaccountRef)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.itemref)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Billno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.due)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Qty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.rate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QBbillid)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VendorRef)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.apaccountRef)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.itemref)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Billno)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.due)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Qty)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.rate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QBbillid)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="btn-add">
+    <a asp-action="GenBill" asp-controller="App" class="btn new-btn">Sync<i class="fa-sharp fa-solid fa-arrows-rotate" style="margin-left:1rem"></i></a>
+</div>

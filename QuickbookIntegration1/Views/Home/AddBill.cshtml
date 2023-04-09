@@ -1,0 +1,65 @@
+﻿@model QuickbookIntegration1.Models._Bill
+@{
+    ViewData["Title"] = "AddBill";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+
+
+
+<div class="flex-row mt-4" id="div2">
+
+    <form method="post" asp-controller="Home" asp-action="AddBill">
+
+        <div class="form-group">
+            <label for="Item">Select Item </label>
+            <select class="form-control" Id="item" required asp-for="itemref">
+                <option>Select</option>
+                @foreach (var item in ViewBag.Itemnames)
+                {
+                    <option value="@item.QBitem">@item.Name</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="VendorRef">Select Vendor</label>
+            <select class="form-control" id="VendorRef" required asp-for="VendorRef">
+                <option>Select</option>
+                @foreach (var item in ViewBag.Vendornames)
+                {
+                    <option value="@item.QBid">@item.DisplayName</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="ApaccountRef">Select Account</label>
+            <select class="form-control" id="Apaccountref" required asp-for="apaccountRef">
+                <option>Select</option>
+                @foreach (var item in ViewBag.Accountnames)
+                {
+                    <option value="@item.QBaccid">@item.Name</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="Due">Due Date </label>
+            <input type="date" class="form-control" id="due" asp-for="due" />
+        </div>
+
+        <div class="form-group">
+            <label for="Quantity">Quantity </label>
+            <input type="text" class="form-control" id="qty" asp-for="Qty">
+        </div>
+        <div class="form-group">
+            <label for="rate">Rate </label>
+            <input type="text" class="form-control" id="rate" asp-for="rate">
+        </div>
+        <div class="form-group">
+            <label for="Billno">Bill No </label>
+            <input type="text" class="form-control" id="billno" asp-for="Billno">
+        </div>
+        <button class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<script src="vendorform.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

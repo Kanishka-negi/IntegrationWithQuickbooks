@@ -1,0 +1,78 @@
+﻿@model IEnumerable<QuickbookIntegration1.Models.Po>
+@{
+    ViewData["Title"] = "ViewPurchaseOrder";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h1>PURCHASE ORDERS</h1>
+
+
+
+<div style="display:flex; justify-content:space-between;">
+    <a asp-action="Initiateoauth2" asp-controller="App" class="btn new-btn"><i class="fa-solid fa-user-shield" style="margin-right:1rem"></i>QuickBook Authentication</a>
+    <a asp-action="AddVendor" asp-controller="Home" class="btn new-btn"><i class="fa-sharp fa-solid fa-plus" style="margin-right:1rem"></i>Create New</a>
+</div>
+<table class="table table-striped" style="margin-top:2rem; border:2px solid #000000; border-color:#000000 ">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VendorRef)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.itemid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.itemaccref)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.due)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.qty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.rate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QBid)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VendorRef)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.itemid)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.itemaccref)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.due)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.qty)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.rate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QBid)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="btn-add">
+    <a asp-action="QBpurchase" asp-controller="App" class="btn new-btn">Sync<i class="fa-sharp fa-solid fa-arrows-rotate" style="margin-left:1rem"></i></a>
+</div>

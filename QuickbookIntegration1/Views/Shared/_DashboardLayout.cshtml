@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@ViewData["Title"] - IntegrationWithQuickbooks</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/fonts/icomoon/style.css" asp-append-version="true">
+
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css" asp-append-version="true">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" asp-append-version="true">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+
+
+
+    <!-- Style -->
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/Home.css" asp-append-version="true">
+    <script src="https://kit.fontawesome.com/e8390de748.js" crossorigin="anonymous"></script>
+  
+
+  <style>
+        img.background{
+            position:absolute;
+            left:0px;
+            top:0px;
+            z-index:-1;
+            width:100;
+            height:100%;
+            -webkit-filter:blur(10px);
+            filter:blur(10px);
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+   
+    <header class="dashHeader">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow" style="background-color:black;">
+            <div class="container-fluid d-flex" style="gap:1em;">
+                <div>
+        <div id="mySidenav" class="sidenav">
+            @*<img src="~/images/QB3.jpg">*@
+            <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
+                        <a class="list-group-item list-group-item-action sidebar" asp-controller="Home" asp-action="Homepage">Home</a>
+            <a class="list-group-item list-group-item-action sidebar" asp-controller="Home" asp-action="ViewVendor">Vendor</a>
+                    <a class="list-group-item list-group-item-action sidebar" asp-controller="Home" asp-action="viewaccount">Account</a>
+                   
+                    <a class="list-group-item list-group-item-action sidebar" asp-controller="Home" asp-action="ViewPurchaseOrder">Purchase Order</a>
+                    
+                    <a class="list-group-item list-group-item-action sidebar" asp-controller="Home" asp-action="ViewItem">Item</a>
+                    
+                    <a class="list-group-item list-group-item-action sidebar" asp-controller="Home" asp-action="ViewBill">Bill</a>
+                    <a class="list-group-item list-group-item-action sidebar" asp-controller="Home" asp-action="ViewCustomer">Customer</a>
+                    <a class="list-group-item list-group-item-action sidebar" asp-controller="Home" asp-action="ViewInvoice">Invoice</a>
+        </div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" id="openNav">
+                        <rect x="4" y="6" width="16" height="2" rx="1" ry="1" fill="#FFFFFF" />
+                        <rect x="4" y="11" width="16" height="2" rx="1" ry="1" fill="#FFFFFF" />
+                        <rect x="4" y="16" width="16" height="2" rx="1" ry="1" fill="#FFFFFF" />
+                    </svg>
+
+    </div>
+                <img src="~/images/pngwing.com.png" alt="Navlogo" class="navlogo" />
+                <img src="~/images/QBICON.jpg" alt="Navlogo" class="navlogo" />
+
+         @*       <h3 style="color:white; text-align:center;" class="navbar-heading">QUICKBOOKS</h3>*@
+
+
+                @*<h4 style="color:white ;"class="navbar-heading">Quickbooks</h4>*@
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse d-flex collapsed-sm-inline-flex justify-content-between">
+                   
+                </div>
+                <div class="d-flex m-auto">
+                    <a class="nav-link" style="color:white" asp-area="" asp-controller="Home" asp-action="Logout">Log Out<i class="fa-sharp fa-solid fa-right-from-bracket" style="margin-left:1rem"></i></a>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    
+        <div class="dashbody">
+            @RenderBody()
+            <img class="background" src="~/images/QB1.jpg" alt="qbblurry">
+        </div>
+    </div>
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

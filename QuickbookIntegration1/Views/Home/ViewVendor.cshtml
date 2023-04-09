@@ -1,0 +1,74 @@
+﻿@model IEnumerable<QuickbookIntegration1.Models.vendor>
+@{
+    ViewData["Title"] = "ViewVendor";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h3><i class="fa-sharp fa-solid fa-user-large" style="margin-right:1rem"></i>VENDORS</h3>
+<div class="btn-add">
+</div>
+
+<div style="display:flex; justify-content:space-between;">
+    <a asp-action="Initiateoauth2" asp-controller="App" class="btn new-btn"><i class="fa-solid fa-user-shield" style="margin-right:1rem"></i>QuickBook Authentication</a>
+    <a asp-action="AddVendor" asp-controller="Home" class="btn new-btn"><i class="fa-sharp fa-solid fa-plus" style="margin-right:1rem"></i>Create New</a>
+</div>
+
+<table class="table table-striped" style="margin-top:2rem; border:2px solid #000000; border-color:#000000 ">
+    <thead>
+        <tr>
+            <th>
+                S.No.
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrimaryEmailAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DisplayName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OtherContactInfo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gstin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BusinessNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QBid)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PrimaryEmailAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DisplayName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OtherContactInfo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gstin)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BusinessNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QBid)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="btn-add">
+    <a asp-action="QBvendor" asp-controller="App" class="btn new-btn">Sync <i class="fa-sharp fa-solid fa-arrows-rotate" style="margin-left:1rem"></i></a>
+</div>
